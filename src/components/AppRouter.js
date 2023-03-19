@@ -7,13 +7,11 @@ import Portfolio from './Portfolio'
 
 function AppRouter() {
   return (
-    <BrowserRouter>
-        <Routes>
-            <Route path='/' element={Home} />
-            <Route path='/about' element={About} />
-            <Route path='/portfolio' element={Portfolio} />
-        </Routes>
-    </BrowserRouter>
+    <Routes>
+        <Route exact path={'/'} element={<Home/>} />
+        <Route exact path={'/about'} element={<About/>} />
+        <Route exact path={'/portfolio'} element={<Portfolio/>} />
+    </Routes>
   )
 }
 
