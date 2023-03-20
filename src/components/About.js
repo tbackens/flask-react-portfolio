@@ -22,21 +22,21 @@ function About() {
         </div>
         <div class="card-body text-center">
           <ul class="list-unstyled text-center">
-            <li><h5>Languages</h5></li>
+            <li><h5 id='gradient-text'>Languages</h5></li>
             <li>Python</li>
             <li>JavaScript</li>
             <li>HTML/CSS</li>
             <br/>
-            <li><h5>Frameworks</h5></li>
+            <li><h5 id='gradient-text'>Frameworks</h5></li>
             <li>React</li>
             <li>Flask</li>
             <li>Bootstrap</li>
             <li>PyQt</li>
             <br/>
-            <li><h5>Databases</h5></li>
+            <li><h5 id='gradient-text'>Databases</h5></li>
             <li>MySQL</li>
             <br/>
-            <li><h5>Tools</h5></li>
+            <li><h5 id='gradient-text'>Tools</h5></li>
             <li>Git/ Github</li>
             <li>Postman</li>
           </ul>
